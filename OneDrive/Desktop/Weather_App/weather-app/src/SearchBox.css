@@ -1,0 +1,36 @@
+.SearchBox {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.MuiFilledInput-root {
+  background-color: #f1f6fc !important;
+  border-radius: 12px !important;
+  min-width: 280px;
+  font-size: 1rem;
+  padding: 12px !important;
+}
+
+.MuiButton-contained {
+  background-color: #3f51b5 !important;
+  border-radius: 12px;
+  padding: 10px 28px;
+  text-transform: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .MuiFilledInput-root {
+    min-width: 240px !important;
+  }
+
+  .MuiButton-contained {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
